@@ -40,9 +40,9 @@ const generateId = () => {
   const id = Math.floor(Math.random() * (1000000000 - 0 + 1) + 0);
   return id;
 };
-app.get("/", (request, response) => {
-  response.send("<h1>Enter localhost:3001/api/persons in the address bar</h1>");
-});
+// app.get("/", (request, response) => {
+//   response.send("<h1>Enter localhost:3001/api/persons in the address bar</h1>");
+// });
 app.get("/api/persons", (request, response) => {
   response.json(persons);
 });
