@@ -1,1 +1,1 @@
-https://agile-temple-25255.herokuapp.com/api/persons
+https://full-stack-phone-book.herokuapp.com/api/persons
