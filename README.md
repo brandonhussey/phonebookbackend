@@ -1,2 +1,2 @@
-https://full-stack-phone-book.herokuapp.com/
-https://full-stack-phone-book.herokuapp.com/api/persons
+https://secret-brook-20031.herokuapp.com/
+https://secret-brook-20031.herokuapp.com/api/persons
