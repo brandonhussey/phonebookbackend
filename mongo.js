@@ -14,8 +14,14 @@ const url = `mongodb+srv://brandonhussey:${password}@phonebook.wh17d.mongodb.net
 mongoose.connect(url);
 
 const personSchema = new mongoose.Schema({
-  name: String,
-  number: String,
+  name: {
+    type: String,
+    minlength: 3,
+    required: true,
+  },
+  number: {
+    type: String,
+  },
 });
 
 const Person = mongoose.model("Person", personSchema);
